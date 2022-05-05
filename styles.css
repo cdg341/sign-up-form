@@ -88,6 +88,19 @@ input {
   margin-top: 5px;
 }
 
+input:focus {
+  border: 1px solid blue;
+  box-shadow: 2px 2px 8px gray;
+}
+
+span {
+  position: relative;
+  top: 26.5rem;
+  left: 5rem;
+  color: white;
+  font-size: 0.8rem;
+}
+
 .create {
   margin-left: 35px;
   margin-top: 50px;
@@ -111,4 +124,8 @@ button:hover {
 
 a {
   text-decoration: none;
+  color: rgb(18, 114, 18)
 }
+
+a:visited {
+  color: rgb(18, 114, 18)
