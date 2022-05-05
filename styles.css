@@ -40,3 +40,75 @@ section {
   font-size: 2.5rem;
   margin-left: 10px;
 }
+
+/* right Sidebar */
+.right-sidebar {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header p {
+  margin-left: 35px;
+  margin-bottom: 20px;
+}
+
+.right-sidebar div > p {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form-section {
+  background-color: white;
+  border: 1px solid grey;
+}
+
+.form-section h1 {
+  font-weight: 100;
+  margin: 35px;
+}
+
+form {
+  padding: 35px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+label {
+  position: relative;
+  width: 15rem;
+}
+
+input {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.create {
+  margin-left: 35px;
+  margin-top: 50px;
+}
+
+button {
+  padding: 10px;
+  background-color: rgb(25, 168, 25);
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px gray;
+}
+
+button:hover {
+  background-color: rgb(18, 114, 18);
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
