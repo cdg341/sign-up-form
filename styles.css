@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo", sans-serif;
+}
+
+/* Main container */
+section {
+  display: flex;
+}
+
+/* Left Sidebar */
+.left-sidebar {
+  background-image: url(/images/arub-aldaweesh-BpHUIImTX3I-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+  width: 60vw;
+  display: flex;
+  align-items: center;
+}
+
+.left-sidebar div {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.left-sidebar img {
+  width: 100px;
+}
+
+.left-sidebar h1 {
+  display: inline;
+  color: white;
+  font-size: 2.5rem;
+  margin-left: 10px;
+}
