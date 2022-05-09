@@ -88,6 +88,7 @@ input {
   margin-top: 5px;
 }
 
+input:active,
 input:focus {
   border: 1px solid blue;
   box-shadow: 2px 2px 8px gray;
